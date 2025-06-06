@@ -1,0 +1,10 @@
+# Avro schema for wordcount messages
+
+{
+    "type": "record",
+    "name": "WordCount",
+    "fields": [
+        {"name":"word", "type":"string"},
+        {"name":"count", "type":"int"}
+    ]
+}
